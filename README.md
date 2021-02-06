@@ -9,3 +9,10 @@ int main(void)
     
     return 0;
 }
+
+double centi_to_meter(int cm)
+{
+    double meter;
+    meter = cm / 100.0;
+    return meter;
+}
